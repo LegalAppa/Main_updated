@@ -1,0 +1,61 @@
+{
+  "name": "main",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@google/generative-ai": "^0.17.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "body-parser": "^1.20.2",
+    "child_process": "^1.0.2",
+    "child-process": "^1.0.2",
+    "cors": "^2.8.5",
+    "docx": "^8.5.0",
+    "docxtemplater": "^3.50.0",
+    "express": "^4.19.2",
+    "file-saver": "^2.0.5",
+    "firebase": "^10.13.0",
+    "formik": "^2.4.6",
+    "install": "^0.13.0",
+    "keyframe": "^2.1.0",
+    "latex.js": "^0.12.6",
+    "mammoth": "^1.8.0",
+    "node-pandoc": "^0.3.0",
+    "npm": "^10.8.2",
+    "pandoc": "^0.2.0",
+    "pdfjs-dist": "^4.5.136",
+    "pizzip": "^3.1.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1",
+    "react-scripts": "5.0.1",
+    "styled-components": "^6.1.12",
+    "util": "^0.12.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
